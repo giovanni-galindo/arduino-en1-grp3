@@ -1,5 +1,7 @@
 # arduino-en1-grp3
 
+Read me created by Prof. Sakib
+
 # Commands
 Type cmd.exe on the address bar inside your folder & type 
 
@@ -27,6 +29,8 @@ type the next two commands -
 
 # For project leads
 Create new arduino file named songcode inside your project folder
+
+`git pull`
 
 `git status`
 
