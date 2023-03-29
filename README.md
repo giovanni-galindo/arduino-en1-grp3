@@ -22,7 +22,7 @@ If it doesn't show these two fields below-
 user.name=<your-user-name>
 user.name=<your-user-email>
 
-type the next two commands - 
+type the next two commands- 
 
 `git config --global user.name "your-user-name"`
 `git config --global user.email "your-user-email"`
