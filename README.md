@@ -32,6 +32,10 @@ Create new arduino file named songcode inside your project folder
 
 `git pull`
 
+make your changes
+
+`git pull`
+
 `git status`
 
 `git add .`
@@ -46,6 +50,8 @@ Create new arduino file named songcode inside your project folder
 `git pull`
 
 make changes to your code
+
+`git pull`
 
 `git status`
 
