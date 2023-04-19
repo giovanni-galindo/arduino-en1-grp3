@@ -1,5 +1,3 @@
-void setup() {
-  // put your setup code here, to run once:
 #define NOTE_B0  31
 #define NOTE_C1  33
 #define NOTE_CS1 35
@@ -89,7 +87,16 @@ void setup() {
 #define NOTE_CS8 4435
 #define NOTE_D8  4699
 #define NOTE_DS8 4978
-#define REST      0
+#define REST 0
+
+int tempo = 100
+
+int buzzer = 13
+
+
+void setup() {
+  // put your setup code here, to run once:
+
 }
 
 void loop() {
