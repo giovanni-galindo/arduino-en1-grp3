@@ -89,13 +89,24 @@
 #define NOTE_DS8 4978
 #define REST 0
 
-int tempo = 100
+int maintempo =176;
+int tempo = .5* maintempo; 
+int quarter = tempo/4
+int eigth = tempo/8
+int sixteenth = tempo/16
+int dotquarter = tempo * 0.375;
+int dothalf = tempo/3;
+int whole = tempo;
+int smallbreak = 100;
 
-int buzzer = 13
-
-
-void setup() {
-  // put your setup code here, to run once:
+void setup() 
+{
+for (int i = 0; i < 3; 1++){
+    tone(13,);
+    delay();
+    noTone(13);
+    delay(50);
+}
 
 }
 
