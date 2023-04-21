@@ -242,10 +242,227 @@ for (int i = 0; i < 3; i++){
     delay(quarter);
     noTone(13);
     delay(100);
+//ALBERTOS PART
+
+    tone(13,2349);
+    delay(eigth);
+    noTone(13);
+    delay(50);
+
+
+
+
+    tone(13,3520);
+    delay(quarter);
+    noTone(13);
+    delay(50);
+
+
+
+
+    tone(13,3520);
+    delay(eigth);
+    noTone(13);
+    delay(50);
+
+
+
+
+     tone(13,3520);
+    delay(half);
+    noTone(13);
+    delay(50);
+
+
+
+
+     tone(13,3520);
+    delay(quarter);
+    noTone(13);
+    delay(50);
+
+
+
+
+     tone(13,2093);
+    delay(half);
+    noTone(13);
+    delay(50);
+
+
+
+
+     tone(13,3951);
+    delay(quarter);
+    noTone(13);
+    delay(50);
+
+
+
+
+     tone(13,3136);
+    delay(whole);
+    noTone(13);
+    delay(50);
+
+
+
+
+     tone(13,3136);
+    delay(half);
+    noTone(13);
+    delay(200);
+
+
+
+
+     tone(13,3951);
+    delay(quarter);
+    noTone(13);
+    delay(50);
+
+
+
+
+     tone(13,2093);
+    delay(eigth);
+    noTone(13);
+    delay(50);
+
+
+
+
+     tone(13,2794);
+    delay(quarter);
+    noTone(13);
+    delay(50);
+
+
+
+
+     tone(13,2794);
+    delay(eigth);
+    noTone(13);
+    delay(50);
+
+
+
+
+     tone(13,2794);
+    delay(half);
+    noTone(13);
+    delay(50);
+
+
+
+
+     tone(13,2794);
+    delay(quarter);
+    noTone(13);
+    delay(50);
+
+
+
+
+     tone(13,3520);
+    delay(half);
+    noTone(13);
+    delay(50);
+
+
+   
+     tone(13,3136);
+    delay(quarter);
+    noTone(13);
+    delay(50);
+
+
+
+
+     tone(13,1397);
+    delay(half);
+    noTone(13);
+    delay(50);
+
+
+
+
+     tone(13,2637);
+    delay(half);
+    noTone(13);
+    delay(50);
+
+
+
+
+     tone(13,2637);
+    delay(whole);
+    noTone(13);
+    delay(50);
+
+
+
+
+     tone(13,2093);
+    delay(quarter);
+    noTone(13);
+    delay(50);
+
+
+
+
+     tone(13,3951);
+    delay(quarter);
+    noTone(13);
+    delay(50);
+
+
+
+
+     tone(13,3520);
+    delay(eigth);
+    noTone(13);
+    delay(50);
+
+
+
+
+     tone(13,3136);
+    delay(quarter);
+    noTone(13);
+    delay(200);
+
+
+
+
+     tone(13,2794);
+    delay(quarter);
+    noTone(13);
+    delay(200);
+
+
+
+
+     tone(13,3136);
+    delay(eigth);
+    noTone(13);
+    delay(50);
+
+
+
+
+     tone(13,3520);
+    delay(quarter);
+    noTone(13);
+    delay(50);
+
+
+
+
+     tone(13,2093);
+    delay(quarter);
+    noTone(13);
+    delay(50);
+    //lawrence's part
 }
 
-
-void loop() {
-  // put your main code here, to run repeatedly:
-
-}
