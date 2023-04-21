@@ -89,26 +89,161 @@
 #define NOTE_DS8 4978
 #define REST 0
 
-int maintempo =176;
+int maintempo =2500;
 int tempo = .5* maintempo; 
-int quarter = tempo/4
-int eigth = tempo/8
-int sixteenth = tempo/16
+int half = tempo/2;
+int quarter = tempo/4;
+int eighth = tempo/8;
+int sixteenth = tempo/16;
 int dotquarter = tempo * 0.375;
 int dothalf = tempo/3;
 int whole = tempo;
 int smallbreak = 100;
 
 void setup() 
-{
-for (int i = 0; i < 3; 1++){
-    tone(13,);
-    delay();
+
+for (int i = 0; i < 3; i++){
+    tone(13,2093);
+    delay(quarter);
     noTone(13);
-    delay(50);
+    delay(100);
+    
+  tone(13,3951);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+
+    
+     tone(13,3520);
+    delay(eighth);
+    noTone(13);
+    delay(100);
+
+    
+     tone(13,3136);
+    delay(quarter);
+    noTone(13);
+    delay(200);
+
+    tone(13,2794);
+    delay(quarter);
+    noTone(13);
+    delay(200);
+    
+  tone(13,3136);
+    delay(eighth);
+    noTone(13);
+    delay(100);
+
+    
+     tone(13,3520);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+
+    
+     tone(13,2093);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+
+    tone(13,3951);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+    
+  tone(13,3520);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+
+     tone(13,3136);
+    delay(eighth);
+    noTone(13);
+    delay(100);
+
+    
+     tone(13,3520);
+    delay(quarter);
+    noTone(13);
+    delay(200);
+
+  tone(13,2637);
+    delay(whole);
+    noTone(13);
+    delay(100);
+
+    tone(13,3520);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+
+    tone(13,3136);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+
+    tone(13,2794);
+    delay(eighth);
+    noTone(13);
+    delay(100);
+
+ tone(13,2637);
+    delay(quarter);
+    noTone(13);
+    delay(200);
+
+    tone(13,2349);
+    delay(quarter);
+    noTone(13);
+    delay(200);
+
+    tone(13,2637);
+    delay(eighth);
+    noTone(13);
+    delay(100);
+
+    tone(13,2794);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+
+    tone(13,3520);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+
+    tone(13,3136);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+
+    tone(13,2794);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+
+    tone(13,2637);
+    delay(eighth);
+    noTone(13);
+    delay(100);
+
+    tone(13,2349);
+    delay(quarter);
+    noTone(13);
+    delay(200);
+
+ tone(13,2093);
+    delay(half);
+    noTone(13);
+    delay(100);
+    
+     tone(13,2093);
+    delay(quarter);
+    noTone(13);
+    delay(100);
 }
 
-}
 
 void loop() {
   // put your main code here, to run repeatedly:
