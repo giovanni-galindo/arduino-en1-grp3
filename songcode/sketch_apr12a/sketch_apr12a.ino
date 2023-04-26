@@ -101,153 +101,183 @@ int whole = tempo;
 int smallbreak = 100;
 
 void setup() 
+{
+for (int i = 0; i < 2; i++){
 
-for (int i = 0; i < 3; i++){
+//BEGINNING OF ALBERTO'S PART  
     tone(13,2093);
     delay(quarter);
     noTone(13);
     delay(100);
+    //C7 "Fly"
     
-  tone(13,3951);
+    tone(13,3951);
     delay(quarter);
     noTone(13);
     delay(100);
+    //B7 "me"
 
     
-     tone(13,3520);
+    tone(13,3520);
     delay(eighth);
     noTone(13);
     delay(100);
+    //A7 "to"
 
     
-     tone(13,3136);
+    tone(13,3136);
     delay(quarter);
     noTone(13);
     delay(200);
+    //G7 "the"
 
     tone(13,2794);
     delay(quarter);
     noTone(13);
     delay(200);
+    //F7 "moon"
     
-  tone(13,3136);
+    tone(13,3136);
     delay(eighth);
     noTone(13);
     delay(100);
+    //G7 "and"
 
     
-     tone(13,3520);
+    tone(13,3520);
     delay(quarter);
     noTone(13);
     delay(100);
+    //A7 "let"
 
     
-     tone(13,2093);
+    tone(13,2093);
     delay(quarter);
     noTone(13);
     delay(100);
+    //C7 "me"
 
     tone(13,3951);
     delay(quarter);
     noTone(13);
     delay(100);
+    //B7 "play"
     
   tone(13,3520);
     delay(quarter);
     noTone(13);
     delay(100);
+    //A7 "a-"
 
-     tone(13,3136);
+    tone(13,3136);
     delay(eighth);
     noTone(13);
     delay(100);
+    //G7 "mong"
 
     
-     tone(13,3520);
+    tone(13,3520);
     delay(quarter);
     noTone(13);
     delay(200);
+    //A7 "the"
 
   tone(13,2637);
     delay(whole);
     noTone(13);
     delay(100);
+    //E7 "stars"
 
     tone(13,3520);
     delay(quarter);
     noTone(13);
     delay(100);
+    //A7 "let"
 
     tone(13,3136);
     delay(quarter);
     noTone(13);
     delay(100);
+    //G7 "me"
 
     tone(13,2794);
     delay(eighth);
     noTone(13);
     delay(100);
+    //F7 "see"
 
  tone(13,2637);
     delay(quarter);
     noTone(13);
     delay(200);
+    //E7 "what"
 
     tone(13,2349);
     delay(quarter);
     noTone(13);
     delay(200);
+    //D7 "spring"
 
     tone(13,2637);
     delay(eighth);
     noTone(13);
     delay(100);
+    //E7 "is"
 
     tone(13,2794);
     delay(quarter);
     noTone(13);
     delay(100);
+    //F7 "like"
 
     tone(13,3520);
     delay(quarter);
     noTone(13);
     delay(100);
+    //A7 "on"
 
     tone(13,3136);
     delay(quarter);
     noTone(13);
     delay(100);
+    //G7 "ju-"
 
     tone(13,2794);
     delay(quarter);
     noTone(13);
     delay(100);
+    //F7 "pi-"
 
     tone(13,2637);
     delay(eighth);
     noTone(13);
     delay(100);
+    //E7 "ter"
 
     tone(13,2349);
     delay(quarter);
     noTone(13);
     delay(200);
+    //D7 "and"
 
- tone(13,2093);
-    delay(half);
+    tone(13,2093);
+    delay(whole);
     noTone(13);
     delay(100);
+    //C7 "mars"
     
-     tone(13,2093);
+    tone(13,2093);
     delay(quarter);
     noTone(13);
     delay(100);
-//ALBERTOS PART
-
+    //C7 "in"
+//END OF ALBERTO'S PART
+//BEGINNING OF LAWRENCE'S PART
     tone(13,2349);
-    delay(eigth);
+    delay(eighth);
     noTone(13);
-    delay(50);
+    delay(100);
+    //D7 "oth-"
 
 
 
@@ -255,15 +285,17 @@ for (int i = 0; i < 3; i++){
     tone(13,3520);
     delay(quarter);
     noTone(13);
-    delay(50);
+    delay(100);
+    //A7 "er"
 
 
 
 
     tone(13,3520);
-    delay(eigth);
+    delay(eighth);
     noTone(13);
-    delay(50);
+    delay(0);
+    //A7 "words"
 
 
 
@@ -271,7 +303,8 @@ for (int i = 0; i < 3; i++){
      tone(13,3520);
     delay(half);
     noTone(13);
-    delay(50);
+    delay(0);
+    //A7 "---"
 
 
 
@@ -279,7 +312,8 @@ for (int i = 0; i < 3; i++){
      tone(13,3520);
     delay(quarter);
     noTone(13);
-    delay(50);
+    delay(100);
+    //A7 "---"
 
 
 
@@ -287,7 +321,8 @@ for (int i = 0; i < 3; i++){
      tone(13,2093);
     delay(half);
     noTone(13);
-    delay(50);
+    delay(100);
+    //C7 "hold"
 
 
 
@@ -295,7 +330,8 @@ for (int i = 0; i < 3; i++){
      tone(13,3951);
     delay(quarter);
     noTone(13);
-    delay(50);
+    delay(100);
+    //B7 "my"
 
 
 
@@ -303,7 +339,8 @@ for (int i = 0; i < 3; i++){
      tone(13,3136);
     delay(whole);
     noTone(13);
-    delay(50);
+    delay(0);
+    //G7 "hand"
 
 
 
@@ -312,6 +349,7 @@ for (int i = 0; i < 3; i++){
     delay(half);
     noTone(13);
     delay(200);
+    //G7 "---"
 
 
 
@@ -319,15 +357,17 @@ for (int i = 0; i < 3; i++){
      tone(13,3951);
     delay(quarter);
     noTone(13);
-    delay(50);
+    delay(100);
+    //B7 "in"
 
 
 
 
      tone(13,2093);
-    delay(eigth);
+    delay(eighth);
     noTone(13);
-    delay(50);
+    delay(100);
+    //C7 "oth-"
 
 
 
@@ -335,15 +375,17 @@ for (int i = 0; i < 3; i++){
      tone(13,2794);
     delay(quarter);
     noTone(13);
-    delay(50);
+    delay(100);
+    //F7 "er"
 
 
 
 
      tone(13,2794);
-    delay(eigth);
+    delay(eighth);
     noTone(13);
-    delay(50);
+    delay(0);
+    //F7 "words"
 
 
 
@@ -351,7 +393,8 @@ for (int i = 0; i < 3; i++){
      tone(13,2794);
     delay(half);
     noTone(13);
-    delay(50);
+    delay(0);
+    //F7 "---"
 
 
 
@@ -359,7 +402,8 @@ for (int i = 0; i < 3; i++){
      tone(13,2794);
     delay(quarter);
     noTone(13);
-    delay(50);
+    delay(100);
+    //F7 "---"
 
 
 
@@ -367,14 +411,16 @@ for (int i = 0; i < 3; i++){
      tone(13,3520);
     delay(half);
     noTone(13);
-    delay(50);
+    delay(100);
+    //A7 "dar-"
 
 
    
      tone(13,3136);
     delay(quarter);
     noTone(13);
-    delay(50);
+    delay(100);
+    //G7 "ling"
 
 
 
@@ -382,7 +428,8 @@ for (int i = 0; i < 3; i++){
      tone(13,1397);
     delay(half);
     noTone(13);
-    delay(50);
+    delay(100);
+    //F6 "kiss"
 
 
 
@@ -390,7 +437,8 @@ for (int i = 0; i < 3; i++){
      tone(13,2637);
     delay(half);
     noTone(13);
-    delay(50);
+    delay(0);
+    //E7 "me"
 
 
 
@@ -398,7 +446,8 @@ for (int i = 0; i < 3; i++){
      tone(13,2637);
     delay(whole);
     noTone(13);
-    delay(50);
+    delay(100);
+    //E7 "eee"
 
 
 
@@ -406,7 +455,8 @@ for (int i = 0; i < 3; i++){
      tone(13,2093);
     delay(quarter);
     noTone(13);
-    delay(50);
+    delay(100);
+    //C7 "fill"
 
 
 
@@ -414,15 +464,17 @@ for (int i = 0; i < 3; i++){
      tone(13,3951);
     delay(quarter);
     noTone(13);
-    delay(50);
+    delay(100);
+    //B7 "my"
 
 
 
 
      tone(13,3520);
-    delay(eigth);
+    delay(eighth);
     noTone(13);
-    delay(50);
+    delay(100);
+    //A7 "heart"
 
 
 
@@ -431,6 +483,7 @@ for (int i = 0; i < 3; i++){
     delay(quarter);
     noTone(13);
     delay(200);
+    //G7 "with"
 
 
 
@@ -439,14 +492,16 @@ for (int i = 0; i < 3; i++){
     delay(quarter);
     noTone(13);
     delay(200);
+    //F7 "song"
 
 
 
 
      tone(13,3136);
-    delay(eigth);
+    delay(eighth);
     noTone(13);
-    delay(50);
+    delay(100);
+    //G7 "and"
 
 
 
@@ -454,7 +509,8 @@ for (int i = 0; i < 3; i++){
      tone(13,3520);
     delay(quarter);
     noTone(13);
-    delay(50);
+    delay(100);
+    //A7 "let"
 
 
 
@@ -462,7 +518,303 @@ for (int i = 0; i < 3; i++){
      tone(13,2093);
     delay(quarter);
     noTone(13);
-    delay(50);
-    //lawrence's part
+    delay(100);
+    //C7 "me"
+//END OF LAWRENCE'S PART
+//BEGINNING OF GIOVANNI'S PART
+    tone(13,3951);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+    //B7 "sing"
+
+
+    tone(13,3520);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+    //A7 "for-"
+   
+    tone(13,3136);
+    delay(eighth);
+    noTone(13);
+    delay(100);
+    //G7 "ev-"
+   
+    tone(13,2794);
+    delay(quarter);
+    noTone(13);
+    delay(200);
+    //F7 "er"
+   
+    tone(13,2637);
+    delay(whole);
+    noTone(13);
+    delay(100);
+    //E7 "more"
+   
+    tone(13,3520);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+    //A7 "you"
+   
+    tone(13,3136);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+    //G7 "are"
+   
+    tone(13,2794);
+    delay(eighth);
+    noTone(13);
+    delay(100);
+    //F7 "all"
+   
+    tone(13,2637);
+    delay(quarter);
+    noTone(13);
+    delay(200);
+    //E7 "I"
+   
+    tone(13,2349);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+    //D7 "long"
+   
+    tone(13,2637);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+    //E7 "for"
+
+    tone(13,2794);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+    //F7 "all"
+   
+    tone(13,3520);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+    //A7 "I"
+   
+    tone(13,3136);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+    //G7 "wor-"
+   
+    tone(13,2794);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+    //F7 "ship"
+
+    
+   
+    tone(13,2637);
+    delay(eighth);
+    noTone(13);
+    delay(100);
+    //E7 "and"
+   
+    tone(13,2349);
+    delay(quarter);
+    noTone(13);
+    delay(200);
+    //D7 "a"
+   
+    tone(13,2093);
+    delay(whole);
+    noTone(13);
+    delay(200);
+    //C7 "dore"
+   
+    tone(13,2093);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+    //C7 "in"
+   
+    tone(13,2349);
+    delay(eighth);
+    noTone(13);
+    delay(100);
+    //D7 "oth-"
+   
+    tone(13,3520);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+    //A7 "er"
+   
+    tone(13,3520);
+    delay(eighth);
+    noTone(13);
+    delay(0);
+    //A7 "words"
+   
+    tone(13,3520);
+    delay(half);
+    noTone(13);
+    delay(0);
+    //A7 "---"
+   
+    tone(13,3520);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+    //A7 "---"
+   
+    tone(13,2093);
+    delay(half);
+    noTone(13);
+    delay(100);
+    //C7 "please" 
+   
+    tone(13,3951);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+    //B7 "be"
+   
+    tone(13,3136);
+    delay(whole);
+    noTone(13);
+    delay(0);
+    //G7 "true"
+   
+    tone(13,3136);
+    delay(half);
+    noTone(13);
+    delay(200);
+    //G7 "---"
+   
+    tone(13,3136);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+    //G7 "in"
+   
+    tone(13,3520);
+    delay(eighth);
+    noTone(13);
+    delay(100);
+    //A7 "oth-"
+   
+    tone(13,2093);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+    //C7 "er"
+   
+    tone(13,2093);
+    delay(eighth);
+    noTone(13);
+    delay(0);
+    //C7 "words"
+   
+    tone(13,2093);
+    delay(half);
+    noTone(13);
+    delay(0);
+    //C7 "---"
+   
+    tone(13,2093);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+    //C7 "---"
+   
+    tone(13,2093);
+    delay(half);
+    noTone(13);
+    delay(100);
+    //C7 "I"
+   
+    tone(13,2349);
+    delay(quarter);
+    noTone(13);
+    delay(100);
+    //D7 "love"
+   
+    tone(13,1047);
+    delay(whole);
+    noTone(13);
+    delay(1000);
+    //C6 "you"
+//END OF GIOVANNI'S PART
+//LOOPS AGAIN
+
+}
+//BEGINNING OF TISE'S PART
+ tone(13,2093);
+ delay(quarter);
+ noTone(13);
+ delay(100);
+ //C7 "in"
+
+ tone(13,2349);
+ delay(eighth);
+ noTone(13);
+ delay(100);
+ //D7 "oth"
+
+ tone(13,3520);
+ delay(quarter);
+ noTone(13);
+ delay(100);
+//A7 "er" 
+
+ tone(13,3520);
+ delay(eighth);
+ noTone(13);
+ delay(0);
+ //A7 "words"
+ 
+ tone(13,3520);
+ delay(half);
+ noTone(13);
+ delay(0);
+ //A7 "---"
+
+ tone(13,3520);
+ delay(quarter);
+ noTone(13);
+ delay(100);
+ //A7 "---"
+
+ tone(13,3951);
+ delay(half);
+ noTone(13);
+ delay(100);
+ //B7 "I"
+
+ tone(13,2349);
+ delay(quarter);
+ noTone(13);
+ delay(100);
+ //D7 "love"
+
+ tone(13,1047);
+ delay(whole);
+ noTone(13);
+ delay(0);
+ //C6 "you"
+
+ tone(13,1047);
+ delay(half);
+ noTone(13);
+ delay(200);
+ //C6 "---"
+
+//END OF TISE'S PART & SONG
 }
 
+void loop()
+{
+
+}
